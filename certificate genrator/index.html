@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/certificate genrator/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Student Certificate Genrator</h1>
+        <input type="text" id="name" placeholder="Enter your name">
+         <input type="number" id="eng" placeholder="Enter  English marks">
+         <input type="number" id="math" placeholder="Enter Maths marks">
+         <input type="number" id="phy" placeholder="Enter Physics marks">
+         <button onclick="genrateCertificate()">Certificate</button>
+
+         </div>
+         <div class="certificate" id="certificate">
+            <h2>Certificate of achivment</h2>
+           <p><b>Student Name: </b><span id="cName"></span></p>
+           <p><b>English: </b><span id="cEnglish"></span></p>
+           <p><b>Maths: </b><span id="cMaths"></span></p>
+           <p><b>Physics: </b><span id="cPhysics"></span></p>
+           <p><b>Total: </b><span id="cTotal"></span></p>
+           <p><b>Percentage : </b><span  id="cPercentage"></span>%</p>
+           <p><b>Grade: </b><span id="cGrade"></span></p>
+
+         </div>
+
+                <script src="/certificate genrator/script.js"></script>
+
+        
+</body>
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bill Genrator</title>
+    <link rel="stylesheet" href="/Bill genrator/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Khune Bill wala</h1>
+        <input type="text" id="name" placeholder="Enter Customer Name">
+
+        <input type="text" id="item1" placeholder="Enter item">
+        <input type="text" id="price1" placeholder="Enter price">
+
+        <input type="text" id="item2" placeholder="Enter item">
+        <input type="text" id="price2" placeholder="Enter price">
+
+        <input type="text" id="item3" placeholder="Enter item">
+        <input type="text" id="price3" placeholder="Enter price">
+
+        <button onclick="genrateBill()">GenrateBill</button>
+
+    </div>
+    <div class="box" id="box">
+        <p><b>Customer Name: </b><span id="cname"></span></p>
+        <p><b>item1: </b><span id="citem1"></span></p>
+        <p><b>Price1: </b><span id="cprice1">₹</span></p>
+        <p><b>Item2: </b><span id="citem2"></span></p>
+        <p><b>Price2: </b><span id="cprice2">₹</span></p>
+        <p><b>Item3: </b><span id="citem3"></span></p>
+        <p><b>Price3: </b><span id="cprice3">₹</span></p>
+        <p><b>Total: </b><span id="ctotal">₹</span></p>
+        
+    </div>
+        <script src="/Bill genrator/script.js"></script>
+    
+</body>
+</html>

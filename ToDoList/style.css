@@ -1,0 +1,81 @@
+/* BODY & GENERAL */
+body {
+    margin: 0;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #e0e5ec;
+    min-height: 100vh;
+    padding-top: 50px;
+}
+
+/* TITLE */
+h1 {
+    color: #333;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+    margin-bottom: 20px;
+}
+
+/* INPUT AREA */
+.input-area {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+/* INPUT BOX */
+#text {
+    padding: 10px 12px;
+    border-radius: 12px;
+    border: none;
+    outline: none;
+    font-size: 14px;
+    background: #e0e5ec;
+    box-shadow: 3px 3px 8px #a3b1c6,
+                -3px -3px 8px #ffffff;
+}
+
+/* ADD & RESET BUTTONS */
+button {
+    padding: 10px 16px;
+    font-size: 14px;
+    border-radius: 12px;
+    border: none;
+    cursor: pointer;
+    background: #6a11cb;
+    color: white;
+    box-shadow: 3px 3px 8px rgba(0,0,0,0.3),
+                -3px -3px 8px rgba(255,255,255,0.5);
+    transition: transform 0.1s, box-shadow 0.1s;
+}
+
+button:hover {
+    transform: translateY(-1px);
+    box-shadow: 2px 2px 6px rgba(0,0,0,0.3),
+                -2px -2px 6px rgba(255,255,255,0.5);
+}
+
+button:active {
+    transform: translateY(1px);
+    box-shadow: inset 2px 2px 6px rgba(0,0,0,0.3),
+                inset -2px -2px 6px rgba(255,255,255,0.5);
+}
+
+/* TASK DISPLAY */
+#work {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px; /* space between tasks */
+}
+
+/* EACH TASK 3D STYLE */
+#work .task {
+    padding: 8px 12px;
+    border-radius: 12px;
+    background: #e0e5ec;
+    box-shadow: 3px 3px 8px #a3b1c6,
+                -3px -3px 8px #ffffff;
+    color: #333;
+}
